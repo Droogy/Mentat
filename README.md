@@ -4,19 +4,23 @@
 ---
 # Note
 
-Mentat is a blue-team framework focused on modularity and portability
-Make file executable first with chmod
+Mentat is a blue-team framework focused on modularity and portability  
+Make file executable first with chmod  
+
 After running the script you'll need to first run the baseline scan  
+
 "check files" allows you to check the specified directory against your baseline and show anything that may have changed  
-check login times and users with "check users"  
+
+check login times and users with "check users" 
+ 
 "honey port" sets up a bash honeypot with a fake banner we can customize
 The "dirs2watch.txt" file allows you configure which folders you'd like to monitor
 
 ---
 # To-Do
 
-Improve nullpit, maybe separate project
-Add (better) documentation
+Improve nullpit, maybe separate project  
+Add (better) documentation  
 Port to python
 
 ---
