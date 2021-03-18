@@ -57,7 +57,7 @@ function new_files {
 
 function checker {
 	printf "Which directory to check for mischief? \n\r"
-	options=("/tmp" "/var" "/etc" "/bin" "/home" "Quit")
+	options=("/tmp" "/var" "/etc" "/bin" "/home" "/dev" "Quit")
 	select opt in "${options[@]}"
 	do
 		case $opt in
@@ -75,6 +75,9 @@ function checker {
 				;;
 			"/home")
 				new_files home
+				;;
+			"/dev")
+				new_files dev
 				;;
 			"Quit")
 				break
