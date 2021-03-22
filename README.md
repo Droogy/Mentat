@@ -17,6 +17,13 @@ check login times and users with "check users"
 The "dirs2watch.txt" file allows you configure which folders you'd like to monitor
 
 ---
+
+# Features
+
+Watch for outbound connections
+![Watching a user ssh out](demos/render1616377409342.gif)
+
+---
 # To-Do
 
 Improve nullpit, maybe separate project  
