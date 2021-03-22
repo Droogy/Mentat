@@ -23,6 +23,9 @@ The "dirs2watch.txt" file allows you configure which folders you'd like to monit
 Watch for outbound connections
 ![Watching a user ssh out](demos/render1616377409342.gif)
 
+Make a user announce via wall when they log-in and also mess with their shell a bit :P
+![Make a user announce they just logged in](demos/loud_login.gif)
+
 ---
 # To-Do
 
